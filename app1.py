@@ -87,30 +87,30 @@ with st.expander("About this App", expanded=True):
 
 MODEL_LINKS = {
     "English": {
-     "CNN": "https://drive.google.com/file/d/17FRkLB0YAerQuiRJPvCPKHkDMEu-oElb",
+     "CNN": "https://drive.google.com/uc?id=17FRkLB0YAerQuiRJPvCPKHkDMEu-oElb",
         #"CNN": "https://drive.google.com/uc?id=1U1GX0tcq5UAEm0a381_g1Kx3B2vPCkTJ", #Updated CNN model
       #   "CNN": "https://drive.google.com/uc?id=1QstlzxhzbqR3pueM6-_qc6MM2R-M600W",
-     "ANN": "https://drive.google.com/file/d/1xgqFe1M2qTmEF3HmDh3ljCKMtHIYHTJe",
+     "ANN": "https://drive.google.com/uc?id=1xgqFe1M2qTmEF3HmDh3ljCKMtHIYHTJe",
         #"ANN": "https://drive.google.com/uc?id=1BXGTf45FvVQETRXOXCVdM8mb_xY61kdc",
-      "RF": "https://drive.google.com/file/d/1Ryd8tPzgLNnAMmFA7_9SbVdH5Oc04Gwk"
+      "RF": "https://drive.google.com/uc?id=1Ryd8tPzgLNnAMmFA7_9SbVdH5Oc04Gwk"
         #"RF": "https://drive.google.com/uc?id=1xaSfAllLTgPJyG7z-9nHdyT0IdK2YHgX"
     },
     "Hindi": {
-          "CNN": "https://drive.google.com/file/d/19hC4jKjWjdxS8C6VzwsG6NsYyiCMGxlZ",    
+          "CNN": "https://drive.google.com/uc?id=19hC4jKjWjdxS8C6VzwsG6NsYyiCMGxlZ",    
         #"CNN": "https://drive.google.com/uc?id=1EWdoOhqFqpkeYqE7lByncJDhiprc1vQA", 
         
-      "ANN": "https://drive.google.com/file/d/110yUotDjEQgE2PkhVQjzG_o5vGFNrKvm",
+      "ANN": "https://drive.google.com/uc?id=110yUotDjEQgE2PkhVQjzG_o5vGFNrKvm",
         #"ANN": "https://drive.google.com/uc?id=1NuN52mi6k01692IV0_BHbnBDTCDXSnZH",
-        "RF": "https://drive.google.com/file/d/1n8jv0GavtmdKKUDR0RcnaeYjP1s6c4sW"
+        "RF": "https://drive.google.com/uc?id=1n8jv0GavtmdKKUDR0RcnaeYjP1s6c4sW"
         #"RF": "https://drive.google.com/uc?id=1CUbehswurG1sKcPQMJmWNKm2zMU1zfq3"
      
     },
     "Kannada": {
-        "CNN": "https://drive.google.com/file/d/1tG-uZi9bFh_aVwgfepkT23tk3d2tLcU4",
+        "CNN": "https://drive.google.com/uc?id=1tG-uZi9bFh_aVwgfepkT23tk3d2tLcU4",
         #"CNN": "https://drive.google.com/uc?id=1YZyP-FmGpQtsX0Iz-EYefSL69Is03Qqg",
-        "ANN": "https://drive.google.com/file/d/1tnv8u49ij1cHVaDTWr7d9_8Q13W0G6Ey",     
+        "ANN": "https://drive.google.com/uc?id=1tnv8u49ij1cHVaDTWr7d9_8Q13W0G6Ey",     
         #"ANN": "https://drive.google.com/uc?id=1dPfk7w5AuRgHueAc_XPSDraV512ox_GY", 
-        "RF": "https://drive.google.com/file/d/1lodvaNwCHZ9AdMvDVK9DzEAOA0KVSJoW"
+        "RF": "https://drive.google.com/uc?id=1lodvaNwCHZ9AdMvDVK9DzEAOA0KVSJoW"
         #"RF": "https://drive.google.com/uc?id=1XA-i3EjBBxISwMCYuL8lwingBFPbShYv"
     }
 }
@@ -177,6 +177,7 @@ if st.button("Predict"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please draw or upload a digit.")
+
 
 
 
