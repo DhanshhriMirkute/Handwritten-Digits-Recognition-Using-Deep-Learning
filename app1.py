@@ -90,7 +90,7 @@ MODEL_LINKS = {
      "CNN": "https://drive.google.com/file/d/17FRkLB0YAerQuiRJPvCPKHkDMEu-oElb"
         #"CNN": "https://drive.google.com/uc?id=1U1GX0tcq5UAEm0a381_g1Kx3B2vPCkTJ", #Updated CNN model
       #   "CNN": "https://drive.google.com/uc?id=1QstlzxhzbqR3pueM6-_qc6MM2R-M600W",
-       "ANN": "https://drive.google.com/file/d/1xgqFe1M2qTmEF3HmDh3ljCKMtHIYHTJe"
+     "ANN": "https://drive.google.com/file/d/1xgqFe1M2qTmEF3HmDh3ljCKMtHIYHTJe"
         #"ANN": "https://drive.google.com/uc?id=1BXGTf45FvVQETRXOXCVdM8mb_xY61kdc",
       "RF": "https://drive.google.com/file/d/1Ryd8tPzgLNnAMmFA7_9SbVdH5Oc04Gwk"
         #"RF": "https://drive.google.com/uc?id=1xaSfAllLTgPJyG7z-9nHdyT0IdK2YHgX"
@@ -177,6 +177,7 @@ if st.button("Predict"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please draw or upload a digit.")
+
 
 
 
