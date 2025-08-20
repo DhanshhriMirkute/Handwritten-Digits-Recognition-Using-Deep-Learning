@@ -117,7 +117,7 @@ MODEL_LINKS = {
 
 MODEL_PATHS = {
     lang: {
-        model: f"models/{lang.lower()}_{model.lower()}_model.{'pkl' if model == 'RF' else 'h5'}"
+        model: f"Handwritten Digit Models/{lang.lower()}_{model.lower()}_model.{'pkl' if model == 'RF' else 'h5'}"
         for model in ["CNN", "ANN", "RF"]
     } for lang in ["English", "Hindi", "Kannada"]
 }
@@ -177,6 +177,7 @@ if st.button("Predict"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please draw or upload a digit.")
+
 
 
 
